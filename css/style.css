@@ -1,6 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #FFF;
+	background-image: url("../images/shells.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	color: indigo;
+}
+h1{
+	text-align: center;
+}
+label{
+	display: block;
+	margin:right;
+	text-align: center;
+}
+input{
+	display:block;
+	margin:auto;
+}
+.wrapper{
+	text-align: center;
+}
+.button{
+	position: absolute;
+	top: 50%;
+}
+ul{
+	text-align: center;
+}
