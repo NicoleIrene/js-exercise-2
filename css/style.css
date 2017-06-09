@@ -8,31 +8,47 @@
 body{
 	font-family: 'Raleway', sans-serif;
 	background-color: #FFF;
-	background-image: url("../images/shells.jpg");
+	background-image: url("../images/pixel-open-front.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	color: indigo;
+	color: #000;
 }
 h1{
 	text-align: center;
+	padding:;
+	background-color: blue;
+	color:#FFF;
 }
 label{
 	display: block;
 	margin:right;
 	text-align: center;
+	background-color: red;
+	color:white;
 }
 input{
-	display:block;
-	margin:auto;
+	/*display:block;
+	margin:auto;*/
 }
 .wrapper{
 	text-align: center;
 }
-.button{
-	position: absolute;
-	top: 50%;
+button{
+	color:white;
+	background-color:red;
+	border:none; 
+	padding: 5px;
+	margin-top: 5px;
+
 }
 ul{
 	text-align: center;
+	padding: 300px;
+	list-style: none;
+	color:red;
+}
+.close-to-do{
+	display: inline-block;
+	margin-right: 10px;
 }
